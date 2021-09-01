@@ -1,0 +1,5 @@
+Sistemas32 172.20.6.254
+Sistemas108 172.20.7.90
+Usuario: reco07
+clave: reco07
+Rangos 66-75

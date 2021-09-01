@@ -1,0 +1,44 @@
+Un hipervisor, conocido también como monitor de máquina virtual (VMM), 
+es un software que crea y ejecuta máquinas virtuales (VM) y que,
+ además, aísla el sistema operativo y los recursos del hipervisor 
+ de las máquinas virtuales y permite crearlas y gestionarlas.
+--------------------------------------------------------------------------------------
+
+Cuando el sistema de hardware físico se usa como hipervisor, se denomina "host",
+ y las múltiples máquinas virtuales que utilizan sus recursos se denominan "guests".
+ ---------------------------------------------------------------------------------------
+ 
+ Logra que un ordenador no sea infrautilizado pues gracias a la virtualización permite que un único equipo ejecute simultaneamente distintas maquinas virtuales, cada una con su sistema operativo, optmizando así el uso de los recursos del mismo.
+Generalmente el hipervisor es un software.
+En algunos aparatos como los teléfonos móviles, el hipervisor esta integrado.
+Separa al sistema operativo de la maquina física pues se ejecutará en una máquina virtual.
+-----------------------------------------------------------------------------------------
+
+Sin embargo, la virtualización es un tipo de tecnología que le permite crear varios entornos simulados o recursos específicos a partir de un solo sistema de hardware físico, y las nubes son entornos de TI que extraen, agrupan y comparten recursos escalables en una red. En pocas palabras, la virtualización es un tipo de tecnología, mientras que la nube es un entorno. 
+Las nubes suelen crearse para habilitar el cloud computing, que consiste en ejecutar cargas de trabajo dentro del sistema. 
+--------------------------------------------------------------------------------------
+
+VMware: Sus programas cuentan con compatibilidad para la tecnología Intel VT-x
+Oracle VM Virtualbox: Virtual Box es un programa para crear entornos de virtualización con múltiples sistemas operativos dentro de nuestra máquina física totalmente funcionales y con posibilidades conectarles en red de forma física
+Microsoft Hyper-v: podremos virtualizar sistemas operativos con todo el hardware como si fuera maquinas reales, tal y como hacen VirtualBox y por supuesto VMware
+QEMU: QEMU es una herramienta de software libre disponible para sistemas operativos de Linux, Windows y Mac, por lo que es una excelente alternativa a VirtualBox, ya que también podremos adquirirlo de forma libre desde su sitio web.
+Parallels: Parallels es un Hypervisor que está disponible para Mac y permite ejecutar máquinas virtuales de otros sistemas operativos sobre la plataforma de Apple.
+Xen: Solamente está disponible para su instalación en sistemas operativos Linux, pero es capaz de virtualizar tanto sistemas Linux como Windows.
+Citrix XenServer: Este software está disponible tanto en versión de pago como libre con Xenserver Free edition. En este caso sí que disponemos de versión tanto en Linux como en Windows y orientado a la virtualización de servidores en pequeñas empresas o usuarios domésticos.
+Proxmox: Proxmox es un Hypervisor de código abierto GNU Linux, por lo que lo podremos adquirir de forma también gratuita.
+KVM: Este software se basa mucho en QEMU y brinda las características propias de virtualización con hardware asistido y sistemas operativos.
+
+-------------------------------------------------------------------------------------
+
+Los contenedores son aplicaciones y servicios autónomos que encapsulan todas las dependencias para que sean fácilmente implementables y actualizables. Incluidos los stacks de desarrollo.
+En los términos más simples, los contenedores son aplicaciones independientes, empaquetadas con sus dependencias, que TI puede implementar y actualizar fácilmente
+
+--------------------------------------------------------------------------------------
+Docker: Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
+Kubernetes: Kubernetes es un sistema de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores​ que fue originalmente diseñado por Google y donado a la Cloud Native Computing Foundation.
+openshift: OpenShift, formalmente llamado Openshift Container Platform, es un producto de computación en la nube de plataforma como servicio de Red Hat.
+
+---------------------------------------------------------------------------------------
+
+La unica diferencia que se presenta entre estas dos es que los contenedores no necesitan de la ISO del sistema operativo para poder ejecutar una aplicacion,
+ambos utilizan Bins y librerias en sus debido funcionamiento.
